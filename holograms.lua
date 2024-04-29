@@ -46,7 +46,7 @@ end
 CreateThread(function()
     while true do
         if inside then
-            Citizen.Wait(0) -- you can add bit more wait but it starts to flash this is perfect
+            Citizen.Wait(6) -- you can add bit more wait but it starts to flash this is perfect
             -- https://docs.fivem.net/docs/game-references/text-formatting/ there you can read more text formating options
             Draw3DText(-1611.3025, 173.2842, 58.6554, "Hello!", 4, 0.1, 0.1)      
             Draw3DText(-1611.3025, 173.2842, 58.8554, "you can make it have many rows ~n~ like this!", 4, 0.1, 0.1)    
